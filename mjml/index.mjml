@@ -8,10 +8,10 @@
       <mj-all font-family="Roboto, Arial, Helvetica, sans-serif"/>
       <mj-image padding="0" border="none"/>
       <mj-spacer height="10px"/>
-      <mj-button background-color="#ba4995" font-size="16px" line-height="20px" font-weight="500" text-transform="uppercase" inner-padding="15px 30px" border-radius="10px"></mj-button>
-      <mj-class name="body+" font-size="16px" line-height="20px" font-weight="400" color="#ffffff" container-background-color="#684092"></mj-class>
+      <mj-button background-color="#ba4995" font-size="16px" line-height="20px" font-weight="500" text-transform="uppercase" inner-padding="15px 30px" border-radius="10px"/>
+      <mj-class name="body+" font-size="16px" line-height="22px" font-weight="400" color="#ffffff" container-background-color="#8b5fb9"/>
       <mj-class name="space+" padding-top="0" padding-bottom="0"/>
-      <mj-class name="body-text" font-size="16px" line-height="20px" font-weight="400" color="#2D3748"/>
+      <mj-class name="body-text" font-size="16px" line-height="22px" font-weight="400" color="#2D3748"/>
       <mj-class name="body-space" align="left" padding="0"/>
       <mj-class name="footer-text" font-size="12px" line-height="16px" font-weight="400" color="#ffffff"/>
       <mj-class name="footer-space" align="center" padding-top="0" padding-bottom="0"/>
@@ -77,21 +77,22 @@
         <mj-image alt="" src=""></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-color="#ffffff" padding-top="0">
       <mj-column width="518px" padding="8px">
         <mj-button css-class="hover" href="#">Postuler Maintenant</mj-button>
-        <mj-text mj-class="body+ ">Les +</mj-text>
+        <mj-spacer height="25px"></mj-spacer>
+        <mj-text font-size="16px" font-weight="900" line-height="22px" color="#ffffff" container-background-color="#684092" text-transform="uppercase">Les + du poste</mj-text>
         <mj-text mj-class="body+ space+">- Un environnement de travail international et multiculturel,</mj-text>
-        <mj-text mj-class="body+ space+">- Une ambiance de travail professionnelle mais surtout conviviale et bienveillante</mj-text>
-        <mj-text mj-class="body+ space+">- Un accès libre à une plateforme e-learning avec un large choix de formations</mj-text>
-        <mj-text mj-class="body+ space+">- Le remboursement des transports à 75%</mj-text>
-        <mj-text mj-class="body+ space+">- La prise en charge des frais de repas à 50 %</mj-text>
-        <mj-text mj-class="body+ space+">- Une mutuelle 100% gratuite</mj-text>
-        <mj-text mj-class="body+ space+">- Des réductions sur des activités loisirs négociées par notre Comité social et économique (CSE)</mj-text>
-        <mj-text mj-class="body+ space+">- Une rémunération avantageuse basée sur le SMC (Salaire Minimum Conventionnel) et non le SMIC.</mj-text>
+        <mj-text mj-class="body+ space+">- Une ambiance de travail professionnelle mais surtout conviviale et bienveillante,</mj-text>
+        <mj-text mj-class="body+ space+">- Un accès libre à une plateforme e-learning avec un large choix de formations,</mj-text>
+        <mj-text mj-class="body+ space+">- Le remboursement des transports à 75 %,</mj-text>
+        <mj-text mj-class="body+ space+">- La prise en charge des frais de repas à 50 %,</mj-text>
+        <mj-text mj-class="body+ space+">- Une mutuelle 100 % gratuite,</mj-text>
+        <mj-text mj-class="body+ space+">- Des réductions sur des activités loisirs négociées par notre Comité social et économique (CSE),</mj-text>
+        <mj-text mj-class="body+" padding-top="0" padding-bottom="25px">- Une rémunération avantageuse basée sur le SMC (Salaire Minimum Conventionnel) et non le SMIC.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#718096" padding-bottom="0">
+    <mj-section background-color="#718096">
       <mj-column width="518px" padding="8px">
         <mj-text padding="0" font-size="16px" font-weight="900" line-height="20px" text-transform="uppercase" color="#ffffff">Nos entreprises partenaires</mj-text>
       </mj-column>
