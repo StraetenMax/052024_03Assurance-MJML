@@ -3,12 +3,16 @@
   <mj-head>
     <mj-title>Annonce Alternance Ref-09 Ecosup Assurance</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"/>
+    <mj-raw></mj-raw>
     <mj-attributes>
       <mj-all font-family="Roboto, Arial, Helvetica, sans-serif"/>
       <mj-image padding="0" border="none"/>
-      <mj-button background-color="#ba4995"></mj-button>
+      <mj-spacer height="10px"/>
+      <mj-button background-color="#ba4995" font-size="16px" line-height="20px" font-weight="500" text-transform="uppercase" inner-padding="15px 30px" border-radius="10px"></mj-button>
+      <mj-class name="body+" font-size="16px" line-height="20px" font-weight="400" color="#ffffff" container-background-color="#684092"></mj-class>
+      <mj-class name="space+" padding-top="0" padding-bottom="0"/>
       <mj-class name="body-text" font-size="16px" line-height="20px" font-weight="400" color="#2D3748"/>
-      <mj-class name="body-space" align="left" padding-top="0" padding-bottom="0"/>
+      <mj-class name="body-space" align="left" padding="0"/>
       <mj-class name="footer-text" font-size="12px" line-height="16px" font-weight="400" color="#ffffff"/>
       <mj-class name="footer-space" align="center" padding-top="0" padding-bottom="0"/>
     </mj-attributes>
@@ -45,32 +49,46 @@
         <mj-image src="https://img.mailinblue.com/3403292/images/content_library/original/6631e75e524b5b6d34b88b1b.png" alt="Logo Ecosup Assurance"/>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding-bottom="0">
       <mj-column width="500px">
         <mj-text font-size="16px" font-weight="300" line-height="20px" color="#2D3748"><strong>{{contact.PRENOM}}</strong> cette annonce correspond à votre recherche d'une alternance dans les métiers de l'assurance et de la banque.</mj-text>
-        <mj-text font-size="16px" font-weight="900" line-height="20px" color="#684092" text-transform="uppercase"> <span style="color:#D30000;">Nouveau</span> Poste à Pourvoir</mj-text>
+        <mj-text font-size="16px" font-weight="900" line-height="20px" color="#684092" text-transform="uppercase" padding-top="0" padding-bottom="0"> <span style="color:#D30000;">Nouveau</span> Poste à Pourvoir</mj-text>
         <mj-text font-size="38px" font-weight="300" line-height="42px" color="#684092">Gestionnaire en Assurance (Garantie Obsèques)</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff">
-      <mj-column width="400px" padding="8px">
-        <mj-text mj-class="body-text"><strong class="textgras">Entreprise :</strong> Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.</mj-text>
-        <mj-text mj-class="body-text"><strong class="textgras">Lieu :</strong> Villeneuve d'Ascq</mj-text>
-        <mj-text mj-class="body-text"><strong class="textgras">Durée :</strong> 12 mois</mj-text>
-        <mj-text mj-class="body-text"><strong class="textgras">Mission :</strong></mj-text>
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-column width="318px" padding="8px">
+        <mj-text mj-class="body-text body-space"><strong class="textgras">Entreprise :</strong> Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.</mj-text>
+        <mj-spacer></mj-spacer>
+        <mj-text mj-class="body-text body-space"><strong class="textgras">Lieu :</strong> Villeneuve d'Ascq</mj-text>
+        <mj-spacer></mj-spacer>
+        <mj-text mj-class="body-text body-space"><strong class="textgras">Durée :</strong> 12 mois</mj-text>
+        <mj-spacer></mj-spacer>
+        <mj-text mj-class="body-text body-space"><strong class="textgras">Mission :</strong></mj-text>
         <mj-text mj-class="body-text body-space">- J'établis et je suis les <strong>appels de cotisations</strong>,</mj-text>
-        <mj-text mj-class="body-text body-space">- Je gère la DSN,</mj-text>
-        <mj-text mj-class="body-text body-space">- J'assure la gestion administrative des dossiers des clients (salariés des entreprises et contrats individuels),</mj-text>
-        <mj-text mj-class="body-text body-space">- Je réalise des mouvements contractuels indviduels et collectifs,</mj-text>
-        <mj-text mj-class="body-text body-space">- J'enregistre et je saisis des adhésions individuelles et des radiations,</mj-text>
-        <mj-text mj-class="body-text body-space">- Je prends en charge et j'assure le réglement de décès,</mj-text>
-        <mj-text mj-class="body-text body-space">- Je prends également en charge les relations avec les clients en les conseillant sur les garanties et la gestion de leur contrat.</mj-text>
+        <mj-text mj-class="body-text body-space">- Je gère la <strong>DSN</strong>,</mj-text>
+        <mj-text mj-class="body-text body-space">- J'assure la <strong>gestion administrative des dossiers des clients</strong> (salariés des entreprises et contrats individuels),</mj-text>
+        <mj-text mj-class="body-text body-space">- Je réalise des <strong>mouvements contractuels</strong> indviduels et collectifs,</mj-text>
+        <mj-text mj-class="body-text body-space">- J'enregistre et je saisis des <strong>adhésions individuelles</strong> et des <strong>radiations</strong>,</mj-text>
+        <mj-text mj-class="body-text body-space">- Je prends en charge et j'assure le <strong>réglement de décès</strong>,</mj-text>
+        <mj-text mj-class="body-text body-space">- Je prends également en charge les <strong>relations avec les clients</strong> en les conseillant sur les garanties et la gestion de leur contrat.</mj-text>
       </mj-column>
       <mj-column width="200px" padding="8px">
         <mj-image alt="" src=""></mj-image>
       </mj-column>
-      <mj-column width="600px">
+    </mj-section>
+    <mj-section>
+      <mj-column width="518px" padding="8px">
         <mj-button css-class="hover" href="#">Postuler Maintenant</mj-button>
+        <mj-text mj-class="body+ ">Les +</mj-text>
+        <mj-text mj-class="body+ space+">- Un environnement de travail international et multiculturel,</mj-text>
+        <mj-text mj-class="body+ space+">- Une ambiance de travail professionnelle mais surtout conviviale et bienveillante</mj-text>
+        <mj-text mj-class="body+ space+">- Un accès libre à une plateforme e-learning avec un large choix de formations</mj-text>
+        <mj-text mj-class="body+ space+">- Le remboursement des transports à 75%</mj-text>
+        <mj-text mj-class="body+ space+">- La prise en charge des frais de repas à 50 %</mj-text>
+        <mj-text mj-class="body+ space+">- Une mutuelle 100% gratuite</mj-text>
+        <mj-text mj-class="body+ space+">- Des réductions sur des activités loisirs négociées par notre Comité social et économique (CSE)</mj-text>
+        <mj-text mj-class="body+ space+">- Une rémunération avantageuse basée sur le SMC (Salaire Minimum Conventionnel) et non le SMIC.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#718096" padding-bottom="0">
@@ -123,7 +141,8 @@
       <mj-column width="380px">
         <mj-text mj-class="footer-text footer-space">Pour être sûr(e) de recevoir nos communications, ajoutez <a class="texthover" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
         <mj-text mj-class="footer-text footer-space"><a class="texthover" href="{{ mirror }}">Afficher dans votre navigateur web</a></mj-text>
-        <mj-text mj-class="footer-text footer-space" padding-bottom="30px" text-transform="uppercase"><a class="texthover" href="{{ unsubscribe }}">se désinscrire</a></mj-text>
+        <mj-text mj-class="footer-text footer-space" text-transform="uppercase"><a class="texthover" href="{{ unsubscribe }}">se désinscrire</a></mj-text>
+        <mj-spacer height="30px"></mj-spacer>
       </mj-column>
     </mj-section>
   </mj-body>

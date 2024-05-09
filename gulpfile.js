@@ -61,5 +61,5 @@ gulp.task("watch", function(){
     gulp.watch("mjml/**/*.mjml", gulp.task("mjml"));
 });
 
-gulp.task("default", gulp.parallel("watch", "live-server"));
+gulp.task("dev", gulp.parallel("watch", "live-server"));
 gulp.task("build", gulp.series("pug", "mjml"));             
