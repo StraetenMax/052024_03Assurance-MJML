@@ -6,7 +6,6 @@
     <mj-attributes>
       <mj-all font-family="Roboto, Arial, Helvetica, sans-serif"/>
       <mj-image padding="0" border="none"/>
-      <mj-social-element border="none"/>
       <mj-button background-color="#ba4995"></mj-button>
       <mj-class name="body-text" font-size="16px" line-height="20px" font-weight="400" color="#2D3748"/>
       <mj-class name="body-space" align="left" padding-top="0" padding-bottom="0"/>
@@ -15,14 +14,19 @@
     </mj-attributes>
     <mj-breakpoint width="550px"/>
     <mj-style>
-      <div class="textgras">td
-        <color>
-          <div id="684092"></div>
-        </color>
-        <text-transform>
-          <uppercase></uppercase>
-        </text-transform>
-      </div>
+      strong.textgras {
+          color: #684092 !important;
+          text-transform: uppercase !important;
+      }
+      
+      a.texthover{
+          text-decoration:none !important;
+          color:#ba4995 !important;
+      }
+      
+      .hover:hover td, .hover:hover a{
+          background-color: #684092 !important;
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#edf2f7">
@@ -50,10 +54,10 @@
     </mj-section>
     <mj-section background-color="#ffffff">
       <mj-column width="400px" padding="8px">
-        <mj-text mj-class="body-text"><strong css-class="textgras">Entreprise :</strong> Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.</mj-text>
-        <mj-text mj-class="body-text"><strong>Lieu :</strong> Villeneuve d'Ascq</mj-text>
-        <mj-text mj-class="body-text"><strong>Durée :</strong> 12 mois</mj-text>
-        <mj-text mj-class="body-text"><strong>Mission :</strong></mj-text>
+        <mj-text mj-class="body-text"><strong class="textgras">Entreprise :</strong> Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.</mj-text>
+        <mj-text mj-class="body-text"><strong class="textgras">Lieu :</strong> Villeneuve d'Ascq</mj-text>
+        <mj-text mj-class="body-text"><strong class="textgras">Durée :</strong> 12 mois</mj-text>
+        <mj-text mj-class="body-text"><strong class="textgras">Mission :</strong></mj-text>
         <mj-text mj-class="body-text body-space">- J'établis et je suis les <strong>appels de cotisations</strong>,</mj-text>
         <mj-text mj-class="body-text body-space">- Je gère la DSN,</mj-text>
         <mj-text mj-class="body-text body-space">- J'assure la gestion administrative des dossiers des clients (salariés des entreprises et contrats individuels),</mj-text>
@@ -66,7 +70,7 @@
         <mj-image alt="" src=""></mj-image>
       </mj-column>
       <mj-column width="600px">
-        <mj-button css-class="textgras">Postuler Maintenant</mj-button>
+        <mj-button css-class="hover" href="#">Postuler Maintenant</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#718096" padding-bottom="0">
@@ -93,7 +97,7 @@
         <mj-column width="172px" padding="8px">
           <mj-image alt="logo AXA France" src="https://i.ibb.co/9V7ywWW/G-AXA1.jpg"/>
         </mj-column>
-        <mj-column with="172px" padding="8px">
+        <mj-column width="172px" padding="8px">
           <mj-image alt="logo Crédit Agricole" src="https://i.ibb.co/NZPRJtt/G-Credit-Agricole.jpg"/>
         </mj-column>
       </mj-group>
@@ -117,9 +121,9 @@
     </mj-section>
     <mj-section background-color="#4A5568">
       <mj-column width="380px">
-        <mj-text mj-class="footer-text footer-space">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#ba4995;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
-        <mj-text mj-class="footer-text footer-space"><a style="text-decoration:none;color:#ba4995;" href="{{ mirror }}">Afficher dans votre navigateur web</a></mj-text>
-        <mj-text mj-class="footer-text footer-space" padding-bottom="30px" text-transform="uppercase"><a style="text-decoration:none;color:#ba4995;" href="{{ unsubscribe }}">se désinscrire</a></mj-text>
+        <mj-text mj-class="footer-text footer-space">Pour être sûr(e) de recevoir nos communications, ajoutez <a class="texthover" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
+        <mj-text mj-class="footer-text footer-space"><a class="texthover" href="{{ mirror }}">Afficher dans votre navigateur web</a></mj-text>
+        <mj-text mj-class="footer-text footer-space" padding-bottom="30px" text-transform="uppercase"><a class="texthover" href="{{ unsubscribe }}">se désinscrire</a></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
