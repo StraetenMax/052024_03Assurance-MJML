@@ -62,4 +62,4 @@ gulp.task("watch", function(){
 });
 
 gulp.task("default", gulp.parallel("watch", "live-server"));
-gulp.task("build", gulp.series("pug", "mjml"));
+gulp.task("build", gulp.series("pug", "mjml"));             
