@@ -9,7 +9,7 @@
       <mj-image padding="0" border="none"/>
       <mj-spacer height="10px"/>
       <mj-button background-color="#ba4995" font-size="16px" line-height="20px" font-weight="500" text-transform="uppercase" inner-padding="15px 30px" border-radius="10px"/>
-      <mj-class name="body+" font-size="16px" line-height="22px" font-weight="400" color="#ffffff" container-background-color="#8b5fb9"/>
+      <mj-class name="body+" font-size="16px" line-height="22px" font-weight="400" color="#ffffff"/>
       <mj-class name="space+" padding-top="0" padding-bottom="0"/>
       <mj-class name="body-text" font-size="16px" line-height="22px" font-weight="400" color="#2D3748"/>
       <mj-class name="body-space" align="left" padding="0"/>
@@ -31,6 +31,8 @@
       .hover:hover td, .hover:hover a{
           background-color: #684092 !important;
       }
+      
+      m
     </mj-style>
   </mj-head>
   <mj-body background-color="#edf2f7">
@@ -74,17 +76,17 @@
         <mj-text mj-class="body-text body-space">- Je prends également en charge les <strong>relations avec les clients</strong> en les conseillant sur les garanties et la gestion de leur contrat.</mj-text>
       </mj-column>
       <mj-column width="200px" padding="8px">
-        <mj-image alt="" src=""></mj-image>
+        <mj-image alt="Jeune Etudiante en Alternance" src="https://i.ibb.co/WGD34JL/jeune-Etudiante052024.jpg"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
-      <mj-column width="518px" padding="8px">
-        <mj-button css-class="hover" href="#">Postuler Maintenant</mj-button>
+      <mj-column width="502px">
+        <mj-button css-class="hover" href="https://ecosup-assurance.fr/gestionnaire-assurance-garantie-obseques">Postuler Maintenant</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
-      <mj-column width="518px" padding="8px" background-color="#8b5fb9" border-radius="15px">
-        <mj-text font-size="16px" font-weight="900" line-height="22px" color="#ffffff" container-background-color="#684092" text-transform="uppercase">Les + du poste</mj-text>
+      <mj-column width="502px" background-color="#8b5fb9">
+        <mj-text font-size="16px" font-weight="900" line-height="22px" color="#ffffff" text-transform="uppercase">Les + du poste</mj-text>
         <mj-text mj-class="body+ space+">- Un environnement de travail international et multiculturel,</mj-text>
         <mj-text mj-class="body+ space+">- Une ambiance de travail professionnelle mais surtout conviviale et bienveillante,</mj-text>
         <mj-text mj-class="body+ space+">- Un accès libre à une plateforme e-learning avec un large choix de formations,</mj-text>
