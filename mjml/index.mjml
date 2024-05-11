@@ -18,16 +18,6 @@
     </mj-attributes>
     <mj-breakpoint width="550px"/>
     <mj-style>
-      strong.textgras {
-          color: #684092 !important;
-          text-transform: uppercase !important;
-      }
-      
-      a.texthover{
-          text-decoration:none !important;
-          color:#ba4995 !important;
-      }
-      
       .hover:hover td, .hover:hover a{
           background-color: #684092 !important;
       }
