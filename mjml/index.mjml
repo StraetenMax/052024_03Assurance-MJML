@@ -21,7 +21,6 @@
       .hover:hover td, .hover:hover a{
           background-color: #684092 !important;
       }
-      
     </mj-style>
   </mj-head>
   <mj-body background-color="#edf2f7">
