@@ -11,8 +11,8 @@ mjml
             mj-class(name='body+' font-size='16px' line-height='22px' font-weight='400' color='#ffffff')/
             mj-class(name='space+' padding-top='0' padding-bottom='0')/
             mj-class(name='body-text' font-size='16px' line-height='22px' font-weight='400' color='#2D3748')/
-            mj-class(name='body-space' align='left' padding='0')/
-            mj-class(name='footer-text' font-size='12px' line-height='16px' font-weight='400' color='#ffffff')/
+            mj-class(name='body-space' align='left' padding-top='0' padding-bottom='0')/
+            mj-class(name='footer-text' font-size='12px' line-height='16px' font-weight='400' color='#2D3748')/
             mj-class(name='footer-space' align='center' padding-top='0' padding-bottom='0')/
         mj-breakpoint(width='550px')/
         mj-style.
@@ -30,7 +30,6 @@ mjml
                 background-color: #684092 !important;
             }
 
-            m
     mj-body(background-color='#edf2f7')
         //- bandeau logo ESA
         mj-section(background-color='#4A5568' padding='0')
@@ -51,14 +50,14 @@ mjml
                 mj-text(font-size='38px' font-weight='300' line-height='42px' color='#684092') Gestionnaire en Assurance (Garantie Obsèques)
         //- texte, image du corps et bouton
         mj-section(background-color='#ffffff' padding-top='0')
-            mj-column(width='318px' padding='8px')
-                mj-text(mj-class='body-text body-space') #[strong(class='textgras') Entreprise :] Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.
+            mj-column(width='500px')
+                mj-text(mj-class='body-text body-space') #[strong(style='color:#684092;text-transform:uppercase;') Entreprise :] Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.
                 mj-spacer
-                mj-text(mj-class='body-text body-space') #[strong(class='textgras') Lieu :] Villeneuve d'Ascq
+                mj-text(mj-class='body-text body-space') #[strong(style='color:#684092;text-transform:uppercase;') Lieu :] Villeneuve d'Ascq
                 mj-spacer
-                mj-text(mj-class='body-text body-space') #[strong(class='textgras') Durée :] 12 mois
+                mj-text(mj-class='body-text body-space') #[strong(style='color:#684092;text-transform:uppercase;') Durée :] 12 mois
                 mj-spacer
-                mj-text(mj-class='body-text body-space') #[strong(class='textgras') Mission :]
+                mj-text(mj-class='body-text body-space') #[strong(style='color:#684092;text-transform:uppercase;') Mission :]
                 mj-text(mj-class='body-text body-space') - J'établis et je suis les #[strong appels de cotisations],
                 mj-text(mj-class='body-text body-space') - Je gère la #[strong DSN],
                 mj-text(mj-class='body-text body-space') - J'assure la #[strong gestion administrative des dossiers des clients] (salariés des entreprises et contrats individuels),
@@ -66,14 +65,12 @@ mjml
                 mj-text(mj-class='body-text body-space') - J'enregistre et je saisis des #[strong adhésions individuelles] et des #[strong radiations],
                 mj-text(mj-class='body-text body-space') - Je prends en charge et j'assure le #[strong réglement de décès],
                 mj-text(mj-class='body-text body-space') - Je prends également en charge les #[strong relations avec les clients] en les conseillant sur les garanties et la gestion de leur contrat.
-            mj-column(width='200px' padding='8px')
-                mj-image(alt='Jeune Etudiante en Alternance' src='https://i.ibb.co/WGD34JL/jeune-Etudiante052024.jpg')
         mj-section(background-color='#ffffff' padding-top='0')
-            mj-column(width='502px')
+            mj-column(width='500px')
                 mj-button(css-class='hover' href='https://ecosup-assurance.fr/gestionnaire-assurance-garantie-obseques') Postuler Maintenant
-        mj-section(background-color='#ffffff' padding-top='0')
-            mj-column(width='502px' background-color="#8b5fb9")
-                mj-text(font-size='16px' font-weight='900' line-height='22px' color="#ffffff" text-transform='uppercase') Les + du poste
+        mj-section(background-color='#8b5fb9' padding-top='0')
+            mj-column(width='500px' background-color="#8b5fb9")
+                mj-text(font-size='16px' font-weight='900' line-height='22px' color="#ffffff" text-transform='uppercase') Les + plus du poste
                 mj-text(mj-class='body+ space+') - Un environnement de travail international et multiculturel,
                 mj-text(mj-class='body+ space+') - Une ambiance de travail professionnelle mais surtout conviviale et bienveillante,
                 mj-text(mj-class='body+ space+') - Un accès libre à une plateforme e-learning avec un large choix de formations,
@@ -83,9 +80,9 @@ mjml
                 mj-text(mj-class='body+ space+') - Des réductions sur des activités loisirs négociées par notre Comité social et économique (CSE),
                 mj-text(mj-class='body+' padding-top='0' padding-bottom='25px') - Une rémunération avantageuse basée sur le SMC (Salaire Minimum Conventionnel) et non le SMIC.
         //- logo Entreprise
-        mj-section(background-color='#718096')
+        mj-section(background-color='#edf2f7')
             mj-column(width='518px' padding="8px")
-                mj-text(padding='0' font-size='16px' font-weight='900' line-height='20px' text-transform='uppercase' color='#ffffff') Nos entreprises partenaires
+                mj-text(padding='0' font-size='16px' font-weight='900' line-height='20px' text-transform='uppercase' color='#4A5568') Nos entreprises partenaires
             mj-group(width='518px')
                 mj-column(width='86px' padding='8px')
                     mj-image(alt='logo Allianz' src='https://i.ibb.co/mcbYWCB/G-Allianz.jpg')/
@@ -100,7 +97,7 @@ mjml
                 mj-column(width='86px' padding='8px')
                     mj-image(alt='logo Crédit Agricole' src='https://i.ibb.co/NZPRJtt/G-Credit-Agricole.jpg')/
         //- footer / réseaux sociaux
-        mj-section(background-color='#4A5568')
+        mj-section
             mj-column(width='380px')
                 mj-social(inner-padding='0 15px' icon-size='25px' mode='horizontal')
                     mj-social-element(alt='icon Linkedin' src='https://img.mailinblue.com/3403292/images/content_library/original/660d6047d0d41f3120a8cdec.png' href='https://fr.linkedin.com/company/ecosup-campus')
@@ -108,15 +105,15 @@ mjml
                     mj-social-element(alt='icon Instagram' src='https://img.mailinblue.com/3403292/images/content_library/original/660d605a373b24d832a3970d.png' href='https://www.instagram.com/ecosup.campus')
                     mj-social-element(alt='icon Youtube' src='https://img.mailinblue.com/3403292/images/content_library/original/660d60657236a3846ef846ba.png' href='https://www.youtube.com/@EcoSupAssurance')
         //- footer / adresse
-        mj-section(background-color='#4A5568' padding-bottom='0')
+        mj-section(padding-bottom='0')
             mj-column(width='235px')
-                mj-image(width='120px' alt='logo Ecosup-Campus' src='https://i.ibb.co/8K8y4kW/ECOSUP-CAMPUS-Blanc012024.png')/
+                mj-image(width='120px' alt='logo Ecosup-Campus' src='https://img.mailinblue.com/3403292/images/content_library/original/660d606e373b24d832a39719.png')/
                 mj-text(mj-class='footer-text footer-space') 17 place Charles et Albert Roussel
                 mj-text(mj-class='footer-text footer-space' text-transform='uppercase') Tourcoing 
         //- footer / réglements
-        mj-section(background-color='#4A5568')
+        mj-section
             mj-column(width='380px')
-                mj-text(mj-class='footer-text footer-space') Pour être sûr(e) de recevoir nos communications, ajoutez #[a(class='texthover' href='mailto:contact@ecosup-campus.fr') contact@ecosup-campus.fr] dans votre carnet d'adresses.
-                mj-text(mj-class='footer-text footer-space'): a(class='texthover' href='{{ mirror }}') Afficher dans votre navigateur web
-                mj-text(mj-class='footer-text footer-space' text-transform='uppercase'): a(class='texthover' href='{{ unsubscribe }}') se désinscrire
+                mj-text(mj-class='footer-text footer-space') Pour être sûr(e) de recevoir nos communications, ajoutez #[a(style='text-decoration:none;color:#BA4995' href='mailto:contact@ecosup-campus.fr') contact@ecosup-campus.fr] dans votre carnet d'adresses.
+                mj-text(mj-class='footer-text footer-space'): a(style='text-decoration:none;color:#BA4995;' href='{{ mirror }}') Afficher dans votre navigateur web
+                mj-text(mj-class='footer-text footer-space' text-transform='uppercase'): a(style='text-decoration:none;color:#ba4995;' href='{{ unsubscribe }}') se désinscrire
                 mj-spacer(height='30px')

@@ -12,8 +12,8 @@
       <mj-class name="body+" font-size="16px" line-height="22px" font-weight="400" color="#ffffff"/>
       <mj-class name="space+" padding-top="0" padding-bottom="0"/>
       <mj-class name="body-text" font-size="16px" line-height="22px" font-weight="400" color="#2D3748"/>
-      <mj-class name="body-space" align="left" padding="0"/>
-      <mj-class name="footer-text" font-size="12px" line-height="16px" font-weight="400" color="#ffffff"/>
+      <mj-class name="body-space" align="left" padding-top="0" padding-bottom="0"/>
+      <mj-class name="footer-text" font-size="12px" line-height="16px" font-weight="400" color="#2D3748"/>
       <mj-class name="footer-space" align="center" padding-top="0" padding-bottom="0"/>
     </mj-attributes>
     <mj-breakpoint width="550px"/>
@@ -32,7 +32,6 @@
           background-color: #684092 !important;
       }
       
-      m
     </mj-style>
   </mj-head>
   <mj-body background-color="#edf2f7">
@@ -59,14 +58,14 @@
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
-      <mj-column width="318px" padding="8px">
-        <mj-text mj-class="body-text body-space"><strong class="textgras">Entreprise :</strong> Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.</mj-text>
+      <mj-column width="500px">
+        <mj-text mj-class="body-text body-space"><strong style="color:#684092;text-transform:uppercase;">Entreprise :</strong> Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.</mj-text>
         <mj-spacer></mj-spacer>
-        <mj-text mj-class="body-text body-space"><strong class="textgras">Lieu :</strong> Villeneuve d'Ascq</mj-text>
+        <mj-text mj-class="body-text body-space"><strong style="color:#684092;text-transform:uppercase;">Lieu :</strong> Villeneuve d'Ascq</mj-text>
         <mj-spacer></mj-spacer>
-        <mj-text mj-class="body-text body-space"><strong class="textgras">Durée :</strong> 12 mois</mj-text>
+        <mj-text mj-class="body-text body-space"><strong style="color:#684092;text-transform:uppercase;">Durée :</strong> 12 mois</mj-text>
         <mj-spacer></mj-spacer>
-        <mj-text mj-class="body-text body-space"><strong class="textgras">Mission :</strong></mj-text>
+        <mj-text mj-class="body-text body-space"><strong style="color:#684092;text-transform:uppercase;">Mission :</strong></mj-text>
         <mj-text mj-class="body-text body-space">- J'établis et je suis les <strong>appels de cotisations</strong>,</mj-text>
         <mj-text mj-class="body-text body-space">- Je gère la <strong>DSN</strong>,</mj-text>
         <mj-text mj-class="body-text body-space">- J'assure la <strong>gestion administrative des dossiers des clients</strong> (salariés des entreprises et contrats individuels),</mj-text>
@@ -75,18 +74,15 @@
         <mj-text mj-class="body-text body-space">- Je prends en charge et j'assure le <strong>réglement de décès</strong>,</mj-text>
         <mj-text mj-class="body-text body-space">- Je prends également en charge les <strong>relations avec les clients</strong> en les conseillant sur les garanties et la gestion de leur contrat.</mj-text>
       </mj-column>
-      <mj-column width="200px" padding="8px">
-        <mj-image alt="Jeune Etudiante en Alternance" src="https://i.ibb.co/WGD34JL/jeune-Etudiante052024.jpg"></mj-image>
-      </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
-      <mj-column width="502px">
+      <mj-column width="500px">
         <mj-button css-class="hover" href="https://ecosup-assurance.fr/gestionnaire-assurance-garantie-obseques">Postuler Maintenant</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding-top="0">
-      <mj-column width="502px" background-color="#8b5fb9">
-        <mj-text font-size="16px" font-weight="900" line-height="22px" color="#ffffff" text-transform="uppercase">Les + du poste</mj-text>
+    <mj-section background-color="#8b5fb9" padding-top="0">
+      <mj-column width="500px" background-color="#8b5fb9">
+        <mj-text font-size="16px" font-weight="900" line-height="22px" color="#ffffff" text-transform="uppercase">Les + plus du poste</mj-text>
         <mj-text mj-class="body+ space+">- Un environnement de travail international et multiculturel,</mj-text>
         <mj-text mj-class="body+ space+">- Une ambiance de travail professionnelle mais surtout conviviale et bienveillante,</mj-text>
         <mj-text mj-class="body+ space+">- Un accès libre à une plateforme e-learning avec un large choix de formations,</mj-text>
@@ -97,9 +93,9 @@
         <mj-text mj-class="body+" padding-top="0" padding-bottom="25px">- Une rémunération avantageuse basée sur le SMC (Salaire Minimum Conventionnel) et non le SMIC.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#718096">
+    <mj-section background-color="#edf2f7">
       <mj-column width="518px" padding="8px">
-        <mj-text padding="0" font-size="16px" font-weight="900" line-height="20px" text-transform="uppercase" color="#ffffff">Nos entreprises partenaires</mj-text>
+        <mj-text padding="0" font-size="16px" font-weight="900" line-height="20px" text-transform="uppercase" color="#4A5568">Nos entreprises partenaires</mj-text>
       </mj-column>
       <mj-group width="518px">
         <mj-column width="86px" padding="8px">
@@ -122,7 +118,7 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#4A5568">
+    <mj-section>
       <mj-column width="380px">
         <mj-social inner-padding="0 15px" icon-size="25px" mode="horizontal">
           <mj-social-element alt="icon Linkedin" src="https://img.mailinblue.com/3403292/images/content_library/original/660d6047d0d41f3120a8cdec.png" href="https://fr.linkedin.com/company/ecosup-campus"></mj-social-element>
@@ -132,18 +128,18 @@
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#4A5568" padding-bottom="0">
+    <mj-section padding-bottom="0">
       <mj-column width="235px">
-        <mj-image width="120px" alt="logo Ecosup-Campus" src="https://i.ibb.co/8K8y4kW/ECOSUP-CAMPUS-Blanc012024.png"/>
+        <mj-image width="120px" alt="logo Ecosup-Campus" src="https://img.mailinblue.com/3403292/images/content_library/original/660d606e373b24d832a39719.png"/>
         <mj-text mj-class="footer-text footer-space">17 place Charles et Albert Roussel</mj-text>
         <mj-text mj-class="footer-text footer-space" text-transform="uppercase">Tourcoing </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#4A5568">
+    <mj-section>
       <mj-column width="380px">
-        <mj-text mj-class="footer-text footer-space">Pour être sûr(e) de recevoir nos communications, ajoutez <a class="texthover" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
-        <mj-text mj-class="footer-text footer-space"><a class="texthover" href="{{ mirror }}">Afficher dans votre navigateur web</a></mj-text>
-        <mj-text mj-class="footer-text footer-space" text-transform="uppercase"><a class="texthover" href="{{ unsubscribe }}">se désinscrire</a></mj-text>
+        <mj-text mj-class="footer-text footer-space">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#BA4995" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
+        <mj-text mj-class="footer-text footer-space"><a style="text-decoration:none;color:#BA4995;" href="{{ mirror }}">Afficher dans votre navigateur web</a></mj-text>
+        <mj-text mj-class="footer-text footer-space" text-transform="uppercase"><a style="text-decoration:none;color:#ba4995;" href="{{ unsubscribe }}">se désinscrire</a></mj-text>
         <mj-spacer height="30px"></mj-spacer>
       </mj-column>
     </mj-section>
