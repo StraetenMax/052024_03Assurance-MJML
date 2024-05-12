@@ -35,17 +35,24 @@ mjml
         mj-section(background-color='#ffffff' padding-bottom='0')
             mj-column(width='500px')
                 mj-text(font-size='16px' font-weight='300' line-height='20px' color='#2D3748') #[strong {{contact.PRENOM}}] cette annonce correspond à votre recherche d'une alternance dans les métiers de l'assurance et de la banque.
-                mj-text(font-size='16px' font-weight='900' line-height='20px' color='#684092' text-transform='uppercase' padding-top='0' padding-bottom='0')  #[span(style='color:#D30000;') Nouveau] Poste à Pourvoir
-                mj-text(font-size='38px' font-weight='300' line-height='42px' color='#684092') Gestionnaire en Assurance (Garantie Obsèques)
-        //- texte, image du corps et bouton
-        mj-section(background-color='#ffffff' padding-top='0')
-            mj-column(width='500px')
+                mj-text(align='center' font-size='16px' font-weight='900' line-height='20px' color='#684092' text-transform='uppercase' padding-top='0' padding-bottom='0')  #[span(style='color:#D30000;') Nouveau] Poste à Pourvoir
+                mj-text( align='center' font-size='38px' font-weight='300' line-height='42px' color='#684092') Gestionnaire en Assurance (Garantie Obsèques)
+        //- Entreprise Lieu Durée
+        mj-section(background-color='#ffffff' padding='0')
+            mj-column(width="50px")
+                mj-image(padding='10px 0' alt='icon Entreprise' src='https://i.ibb.co/xD5xk3d/icon-Entreprise.png' )
+            mj-column(width='450px')
                 mj-text(mj-class='body-text body-space') #[strong(style='color:#684092;text-transform:uppercase;') Entreprise :] Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.
                 mj-spacer
                 mj-text(mj-class='body-text body-space') #[strong(style='color:#684092;text-transform:uppercase;') Lieu :] Villeneuve d'Ascq
                 mj-spacer
                 mj-text(mj-class='body-text body-space') #[strong(style='color:#684092;text-transform:uppercase;') Durée :] 12 mois
                 mj-spacer
+        //- Mission
+        mj-section(background-color='#ffffff' padding-top='0')
+            mj-column(width="50px")
+                mj-image(alt='icon Entreprise' padding='10px 0' src='https://i.ibb.co/frZ2HWT/icon-Mission.png' )
+            mj-column(width='450px')
                 mj-text(mj-class='body-text body-space') #[strong(style='color:#684092;text-transform:uppercase;') Mission :]
                 mj-text(mj-class='body-text body-space') - J'établis et je suis les #[strong appels de cotisations],
                 mj-text(mj-class='body-text body-space') - Je gère la #[strong DSN],
@@ -54,20 +61,24 @@ mjml
                 mj-text(mj-class='body-text body-space') - J'enregistre et je saisis des #[strong adhésions individuelles] et des #[strong radiations],
                 mj-text(mj-class='body-text body-space') - Je prends en charge et j'assure le #[strong réglement de décès],
                 mj-text(mj-class='body-text body-space') - Je prends également en charge les #[strong relations avec les clients] en les conseillant sur les garanties et la gestion de leur contrat.
+        //- Button
         mj-section(background-color='#ffffff' padding-top='0')
             mj-column(width='500px')
                 mj-button(css-class='hover' href='https://ecosup-assurance.fr/gestionnaire-assurance-garantie-obseques') Postuler Maintenant
-        mj-section(background-color='#8b5fb9' padding-top='0')
-            mj-column(width='500px' background-color="#8b5fb9")
+        //- Les Plus
+        mj-section(background-color='#8b5fb9')
+            mj-column(width='50px')
+                mj-image(al='icon Plus' padding='10px 0' src="https://i.ibb.co/ZKzFmbq/icon-Plus-Blanc.png")
+            mj-column(width='450px' background-color="#8b5fb9")
                 mj-text(font-size='16px' font-weight='900' line-height='22px' color="#ffffff" text-transform='uppercase') Les + plus du poste
-                mj-text(mj-class='body+ space+') - Un environnement de travail international et multiculturel,
+                mj-text(mj-class='body+ space+') - Un environnement de #[strong travail international] et multiculturel,
                 mj-text(mj-class='body+ space+') - Une ambiance de travail professionnelle mais surtout conviviale et bienveillante,
                 mj-text(mj-class='body+ space+') - Un accès libre à une plateforme e-learning avec un large choix de formations,
-                mj-text(mj-class='body+ space+') - Le remboursement des transports à 75 %,
-                mj-text(mj-class='body+ space+') - La prise en charge des frais de repas à 50 %,
-                mj-text(mj-class='body+ space+') - Une mutuelle 100 % gratuite,
+                mj-text(mj-class='body+ space+') - Le remboursement des #[strong transports à 75 %],
+                mj-text(mj-class='body+ space+') - La prise en charge des #[strong frais de repas à 50 %],
+                mj-text(mj-class='body+ space+') - Une #[strong mutuelle 100 % gratuite],
                 mj-text(mj-class='body+ space+') - Des réductions sur des activités loisirs négociées par notre Comité social et économique (CSE),
-                mj-text(mj-class='body+' padding-top='0' padding-bottom='25px') - Une rémunération avantageuse basée sur le SMC (Salaire Minimum Conventionnel) et non le SMIC.
+                mj-text(mj-class='body+' padding-top='0' padding-bottom='25px') - Une #[strong rémunération avantageuse basée sur le SMC] (Salaire Minimum Conventionnel) et non le SMIC.
         //- logo Entreprise
         mj-section(background-color='#edf2f7')
             mj-column(width='518px' padding="8px")
