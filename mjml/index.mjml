@@ -48,7 +48,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
       <mj-column width="50px">
-        <mj-image padding="10px 0" alt="icon Entreprise" src="https://i.ibb.co/xD5xk3d/icon-Entreprise.png"></mj-image>
+        <mj-image padding="10px 0" alt="icon Entreprise" src="https://i.ibb.co/xD5xk3d/icon-Entreprise.png"/>
       </mj-column>
       <mj-column width="450px">
         <mj-text mj-class="body-text body-space"><strong style="color:#684092;text-transform:uppercase;">Entreprise :</strong> Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.</mj-text>
@@ -61,7 +61,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
       <mj-column width="50px">
-        <mj-image alt="icon Entreprise" padding="10px 0" src="https://i.ibb.co/frZ2HWT/icon-Mission.png"></mj-image>
+        <mj-image alt="icon Entreprise" padding="10px 0" src="https://i.ibb.co/frZ2HWT/icon-Mission.png"/>
       </mj-column>
       <mj-column width="450px">
         <mj-text mj-class="body-text body-space"><strong style="color:#684092;text-transform:uppercase;">Mission :</strong></mj-text>
@@ -81,7 +81,7 @@
     </mj-section>
     <mj-section background-color="#8b5fb9">
       <mj-column width="50px">
-        <mj-image al="icon Plus" padding="10px 0" src="https://i.ibb.co/ZKzFmbq/icon-Plus-Blanc.png"></mj-image>
+        <mj-image alt="icon Plus" padding="10px 0" src="https://i.ibb.co/ZKzFmbq/icon-Plus-Blanc.png"/>
       </mj-column>
       <mj-column width="450px" background-color="#8b5fb9">
         <mj-text font-size="16px" font-weight="900" line-height="22px" color="#ffffff" text-transform="uppercase">Les + plus du poste</mj-text>
